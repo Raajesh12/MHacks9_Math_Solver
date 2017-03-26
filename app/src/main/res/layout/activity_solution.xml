@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/green"
     tools:context="com.example.raajesharunachalam.mathsolver.SolutionActivity">
     <TextView
         android:id="@+id/solutions_label"
@@ -14,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="30dp"
         android:text="SOLUTIONS"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="45sp"/>
 
     <android.support.v7.widget.RecyclerView
